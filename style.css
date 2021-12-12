@@ -1,0 +1,25 @@
+#map {
+    height: 500px;
+    width: 800px;
+    margin: 10px;
+}
+#container {
+    display: flex;
+    flex-direction: row;
+}
+
+#puzzle {
+    border: 1px solid black;
+    display: grid;
+    margin: 10px;
+    height: 500px;
+    width: 800px;
+}
+
+#puzzle_container {
+    height: 400px;
+    width: 1620px;
+    border: 2px dashed #7f7fe9;
+    margin: 10px;
+}
+  

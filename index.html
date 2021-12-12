@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>lab5</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./script/leaflet/leaflet.css" />
+        <link rel="stylesheet" href="./style.css" />
+         <!-- Make sure you put this AFTER Leaflet's CSS -->
+        
+    </head>
+    
+    <body>
+        <div id="container">
+            <div id="map"></div>
+            <div id="puzzle"></div>
+        </div>
+        <button id="getLocation">Get Current Location</button>
+        <button id="saveButton">Save Raster Map</button>
+        <div id="puzzle_container" ondrop="dropBack(event)" ondragover="allowDrop(event)"></div>
+    <canvas style="display: none" width="800" height="500" id="rasterMap"></canvas>
+    <script src="./script/leaflet/leaflet.js"></script>
+    <script src='https://unpkg.com/leaflet-image@0.4.0/leaflet-image.js'></script>
+    <script src="./script/script.js"></script>
+    </body>
+</html>
